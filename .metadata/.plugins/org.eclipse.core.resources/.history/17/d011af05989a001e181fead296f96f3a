@@ -1,0 +1,16 @@
+package com.ms.email.entities;
+
+import java.util.UUID;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table (name = "tb_emails")
+public class Email {
+	
+	private UUID userId;
+	private String emailTo;
+	private String subject;
+	private String text;
+}

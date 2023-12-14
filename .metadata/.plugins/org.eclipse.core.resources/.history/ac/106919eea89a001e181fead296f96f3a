@@ -1,0 +1,11 @@
+package com.ms.email.repositories;
+
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import jakarta.validation.constraints.Email;
+
+public interface EmailRepository extends JpaRepository<Email, UUID>{
+
+}

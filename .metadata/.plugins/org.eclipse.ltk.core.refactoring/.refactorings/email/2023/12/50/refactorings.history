@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;EmailDTO.java&apos; to &apos;user/src/main/java/com.ms.user.dtos&apos;&#x0A;- Original project: &apos;email&apos;&#x0A;- Destination element: &apos;user/src/main/java/com.ms.user.dtos&apos;&#x0A;- Original element: &apos;com.ms.email.dtos.EmailDTO.java&apos;" description="Copy compilation unit" destination="=user/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ms.user.dtos" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ms.email.dtos{EmailDTO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1702566736212" units="1" version="1.0"/>
+</session>

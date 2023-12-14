@@ -1,0 +1,33 @@
+package com.ms.email.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.stereotype.Service;
+
+import com.ms.email.repositories.EmailRepository;
+
+import jakarta.transaction.Transactional;
+import jakarta.validation.constraints.Email;
+
+@Service
+public class EmailService {
+	
+	@Autowired
+	private EmailRepository repository;
+	
+	@Autowired
+	private JavaMailSender emailSender;
+	
+	@Value(value = "#{spring.mail.username}")
+	private String emailFrom;
+	
+	@Transactional
+	public Email sendEmail(Email email) {
+		try {
+			em
+		} catch() {
+			
+		}
+	}
+}
